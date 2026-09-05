@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Gambling Should Be Banned</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            color: #2d2d2d;
+            background: #f8f9fa;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Stats Banner */
+        .stats-banner {
+            background: #e74c3c;
+            color: white;
+            padding: 30px 20px;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-item .number {
+            font-size: 2.2rem;
+            font-weight: bold;
+        }
+
+        .stat-item .label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            color: #1a1a2e;
+            margin-bottom: 30px;
+            text-align: center;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: #e74c3c;
+            border-radius: 2px;
+        }
+
+        /* Reasons Grid */
+        .reasons-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 50px;
+        }
+
+        .reason-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-top: 4px solid #e74c3c;
+        }
+
+        .reason-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .reason-card .icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .reason-card h3 {
+            color: #1a1a2e;
+            margin-bottom: 12px;
+            font-size: 1.3rem;
+        }
+
+        .reason-card p {
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+        /* Impact Section */
+        .impact-section {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: white;
+            padding: 60px 20px;
+            margin: 40px 0;
+        }
+
+        .impact-content {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .impact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .impact-item {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .impact-item .number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #e74c3c;
+        }
+
+        .impact-item .desc {
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+
+        /* Call to Action */
+        .cta-section {
+            text-align: center;
+            padding: 60px 20px;
+            background: white;
+        }
+
+        .cta-section h2 {
+            font-size: 2rem;
+            color: #1a1a2e;
+            margin-bottom: 20px;
+        }
+
+        .cta-section p {
+            max-width: 600px;
+            margin: 0 auto 30px;
+            color: #555;
+            font-size: 1.1rem;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background: #e74c3c;
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            background: #c0392b;
+        }
+
+        /* Footer */
+        footer {
+            background: #1a1a2e;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        footer p {
+            opacity: 0.7;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .stats-banner {
+                gap: 25px;
+            }
+
+            .stat-item .number {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Why Gambling Should Be Banned</h1>
+        <p>Gambling destroys lives, families, and communities. It's time to take a stand against this harmful industry.</p>
+    </section>
+
+    <!-- Stats Banner -->
+    <section class="stats-banner">
+        <div class="stat-item">
+            <div class="number">$110B+</div>
+            <div class="label">Lost by US Gamblers Annually</div>
+        </div>
+        <div class="stat-item">
+            <div class="number">10M+</div>
+            <div class="label">Problem Gamblers in the US</div>
+        </div>
+        <div class="stat-item">
+            <div class="number">1 in 5</div>
+            <div class="label">Problem Gamblers Go Bankrupt</div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h2 class="section-title">Key Reasons to Ban Gambling</h2>
+
+        <div class="reasons-grid">
+            <div class="reason-card">
+                <div class="icon">💔</div>
+                <h3>Destroys Families</h3>
+                <p>Gambling addiction leads to broken homes, domestic violence, child neglect, and divorce. Families suffer the consequences of a gambler's obsession.</p>
+            </div>
+
+            <div class="reason-card">
+                <div class="icon">💸</div>
+                <h3>Financial Ruin</h3>
+                <p>Problem gamblers often lose their savings, homes, and livelihoods. Many resort to crime or bankruptcy to fund their addiction.</p>
+            </div>
+
+            <div class="reason-card">
+                <div class="icon">🧠</div>
+                <h3>Mental Health Crisis</h3>
+                <p>Gambling addiction causes severe depression, anxiety, and suicidal thoughts. The psychological toll is devastating to individuals and their loved ones.</p>
+            </div>
+
+            <div class="reason-card">
+                <div class="icon">🏠</div>
+                <h3>Increases Crime</h3>
+                <p>Gambling dens attract organized crime, money laundering, drug trafficking, and violent crimes in surrounding communities.</p>
+            </div>
+
+            <div class="reason-card">
+                <div class="icon">👨‍👩‍👧‍👦</div>
+                <h3>Hurts Children</h3>
+                <p>Children of gamblers face poverty, neglect, abuse, and emotional trauma. They often develop their own gambling problems later in life.</p>
+            </div>
+
+            <div class="reason-card">
+                <div class="icon">📉</div>
+                <h3>Economic Burden</h3>
+                <p>While casinos promise jobs, they actually increase unemployment, poverty, and social welfare costs in communities.</p>
+            </div>
+
+            <div class="reason-card">
+                <div class="icon">🎯</div>
+                <h3>Predatory Industry</h3>
+                <p>Gambling companies specifically target vulnerable populations, the poor, elderly, and minorities with aggressive marketing.</p>
+            </div>
+
+            <div class="reason-card">
+                <div class="icon">🎰</div>
+                <h3>Always Favors the House</h3>
+                <p>The math is rigged against players. Over time, everyone loses. The industry profits from human weakness and false hope.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Impact Section -->
+    <section class="impact-section">
+        <div class="impact-content">
+            <h2 class="section-title" style="color: white;">The Real Cost of Gambling</h2>
+            <div class="impact-grid">
+                <div class="impact-item">
+                    <div class="number">40%</div>
+                    <div class="desc">Of problem gamblers have attempted suicide</div>
+                </div>
+                <div class="impact-item">
+                    <div class="number">$1,200</div>
+                    <div class="desc">Average debt per problem gambler</div>
+                </div>
+                <div class="impact-item">
+                    <div class="number">35%</div>
+                    <div class="desc">Of problem gamblers commit crimes</div>
+                </div>
+                <div class="impact-item">
+                    <div class="number">1 in 5</div>
+                    <div class="desc">Marriages affected by gambling</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <h2>Take Action Now</h2>
+        <p>Join the movement to ban gambling and protect our communities. Share this page, contact your representatives, and support legislation that puts people before profits.</p>
+        <a href="#" class="cta-btn">Learn How to Help</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Together we can build a gambling-free future for our communities.</p>
+    </footer>
+
+</body>
+</html>
