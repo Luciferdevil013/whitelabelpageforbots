@@ -352,12 +352,58 @@
         <h2>Take Action Now</h2>
         <p>Join the movement to ban gambling and protect our communities. Share this page, contact your representatives, and support legislation that puts people before profits.</p>
         <a href="#" class="cta-btn">Learn How to Help</a>
+        <br><br>
+        <a href="https://idebate.net/this-house-would-ban-gambling~b1326/" class="cta-btn" style="background: #27ae60;" onclick="handleSubscribe()">Subscribe for Updates</a>
     </section>
 
     <!-- Footer -->
     <footer>
         <p>Together we can build a gambling-free future for our communities.</p>
     </footer>
+
+    <script>
+        function handleSubscribe() {
+            ttq.identify({
+                "email": "",
+                "phone_number": "",
+                "external_id": ""
+            });
+
+            ttq.track('Subscribe', {
+                "contents": [
+                    {
+                        "content_id": "gambling-ban-page",
+                        "content_type": "product",
+                        "content_name": "Gambling Awareness"
+                    }
+                ],
+                "value": 0,
+                "currency": "USD"
+            });
+
+            setTimeout(function() {
+                window.location.href = "https://idebate.net/this-house-would-ban-gambling~b1326/";
+            }, 300);
+        }
+
+        ttq.identify({
+            "email": "",
+            "phone_number": "",
+            "external_id": ""
+        });
+
+        ttq.track('ViewContent', {
+            "contents": [
+                {
+                    "content_id": "gambling-ban-page",
+                    "content_type": "product",
+                    "content_name": "Gambling Awareness"
+                }
+            ],
+            "value": 0,
+            "currency": "USD"
+        });
+    </script>
 
 </body>
 </html>
